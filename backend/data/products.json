@@ -1,0 +1,529 @@
+[
+    {
+        "name": "UrbanFlex Tee",
+        "price": 499.00,
+        "description":"A lightweight and breathable T-shirt designed for ultimate comfort, perfect for daily wear or casual outings.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/1_pkqtdf",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425705/1_pkqtdf.png"
+            }
+        ],
+        "category": "Graphic",
+        "seller": "H&M",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },
+    {
+        "name": "Classic Core Tee",
+        "price": 389.00,
+        "description":"A timeless cotton tee with a relaxed fit, ideal for layering or wearing solo.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/2_odst5x",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425704/2_odst5x.png"
+            }
+        ],
+        "category": "Men",
+        "seller": "H&M",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },
+    {
+        "name": "Essential Fit Tee",
+        "price": 699.00,
+        "description":"A soft and durable T-shirt crafted for everyday versatility and comfort.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/2_odst5x",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425704/2_odst5x.png"
+            }
+        ],
+        "category": "Men",
+        "seller": "H&M",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },
+    {
+        "name": "ActiveDry Performance Tee ",
+        "price": 389.00,
+        "description":"Made with moisture-wicking fabric to keep you cool and dry during workouts or outdoor activities.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/3_z69fof",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425705/3_z69fof.png"
+            }
+        ],
+        "category": "Men",
+        "seller": "H&M",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },
+    {
+        "name": "ActiveDry Performance Tee ",
+        "price": 389.00,
+        "description":"Made with moisture-wicking fabric to keep you cool and dry during workouts or outdoor activities.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/4_u8zw7y",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425705/4_u8zw7y.png"
+            }
+        ],
+        "category": "Men",
+        "seller": "H&M",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },
+    {
+        "name": "FlexMotion Gym Tee",
+        "price": 389.00,
+        "description":"Stretchable and form-fitting, designed for maximum mobility and comfort during intense exercises.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/5_ntkeot",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425706/5_ntkeot.png"
+            }
+        ],
+        "category": "Men",
+        "seller": "H&M",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },
+    {
+        "name": "EnduroFit Training Tee",
+        "price": 389.00,
+        "description":"A breathable and quick-dry tee built for endurance and high-performance training.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/6_fkc3cv",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425707/6_fkc3cv.png"
+            }
+        ],
+        "category": "Men",
+        "seller": "H&M",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },
+    {
+        "name": "HypeStreet Oversized Tee",
+        "price": 389.00,
+        "description":"A trendy oversized T-shirt with bold designs, perfect for streetwear fashion.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/7_coj9rq",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425708/7_coj9rq.png"
+            }
+        ],
+        "category": "Men",
+        "seller": "H&M",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },
+    {
+        "name": "Graphix Print Tee",
+        "price": 389.00,
+        "description":"Statement-making tees with unique graphic prints and eye-catching details.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/8_vq7zye",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425709/8_vq7zye.png"
+            }
+        ],
+        "category": "Men",
+        "seller": "H&M",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },
+    {
+        "name": "RetroVibe Ringer Tee ",
+        "price": 389.00,
+        "description":"A vintage-inspired tee with contrast ribbing for a classic throwback look.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/9_twruyl",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425710/9_twruyl.png"
+            }
+        ],
+        "category": "Men",
+        "seller": "H&M",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },
+    {
+        "name": "Elite Cotton Crew Tee",
+        "price": 389.00,
+        "description":"A premium, ultra-soft cotton T-shirt designed for luxury comfort and refined style.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/10_r65eqp",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425711/10_r65eqp.png"
+            }
+        ],
+        "category": "Men",
+        "seller": "H&M",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },
+    {
+        "name": "Henley T-Shirt ",
+        "price": 389.00,
+        "description":"Features a buttoned placket at the neckline, adding a touch of style to a casual tee.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/11_qqmyw9",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425712/11_qqmyw9.png"
+            }
+        ],
+        "category": "Women",
+        "seller": "Penshopee",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },
+    {
+        "name": "Raglan Sleeve Tee",
+        "price": 389.00,
+        "description":"Also known as a baseball tee, it has contrasting colored sleeves that extend to the collar.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/12_bhca6i",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425713/12_bhca6i.png"
+            }
+        ],
+        "category": "Women",
+        "seller": "Penshopee",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },
+    {
+        "name": "Cold Shoulder Tee",
+        "price": 389.00,
+        "description":"Designed with cut-out shoulder sections, adding a trendy and stylish look.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/13_egcmwj",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425714/13_egcmwj.png"
+            }
+        ],
+        "category": "Women",
+        "seller": "Penshopee",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },
+    {
+        "name": "Peplum T-Shirt",
+        "price": 389.00,
+        "description":"Fitted at the waist with a flared bottom, giving a feminine and elegant touch.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/14_jjphrt",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425716/14_jjphrt.png"
+            }
+        ],
+        "category": "Women",
+        "seller": "Penshopee",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },
+    {
+        "name": "Tie-Front Tee",
+        "price": 389.00,
+        "description":"A casual tee with a knotted or tied detail at the front, adding a playful and chic vibe.        ",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/15_gdrl5m",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425717/15_gdrl5m.png"
+            }
+        ],
+        "category": "Women",
+        "seller": "Penshopee",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },
+    {
+        "name": "Basic Crew Neck Tee",
+        "price": 389.00,
+        "description":"A simple and comfy round-neck T-shirt, perfect for everyday wear.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/16_pwi7fj",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425718/16_pwi7fj.png"
+            }
+        ],
+        "category": "Kids",
+        "seller": "Bench",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },
+    {
+        "name": "Cartoon/Character Tee",
+        "price": 389.00,
+        "description":"Features favorite cartoon characters, superheroes, or animated designs that kids love.        ",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/17_war5va",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425719/17_war5va.png"
+            }
+        ],
+        "category": "Kids",
+        "seller": "Bench",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },
+    {
+        "name": "Color-Block Tee",
+        "price": 389.00,
+        "description":"A fun and stylish shirt with multiple contrasting colors or patterns.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/18_lubbxi",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425720/18_lubbxi.png"
+            }
+        ],
+        "category": "Kids",
+        "seller": "Bench",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },
+    {
+        "name": "Pocket Tee",
+        "price": 389.00,
+        "description":"A cute and functional T-shirt with a small pocket on the front for added style.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/19_rqi75d",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425721/19_rqi75d.png"
+            }
+        ],
+        "category": "Kids",
+        "seller": "Bench",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },  
+    {
+        "name": "Glow-in-the-Dark Tee",
+        "price": 389.00,
+        "description":"A playful T-shirt with prints that light up in the dark, making it exciting for kids.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/20_gffxqi",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425722/20_gffxqi.png"
+            }
+        ],
+        "category": "Kids",
+        "seller": "Bench",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },  
+    {
+        "name": "Classic Oversized Tee",
+        "price": 389.00,
+        "description":"A simple, loose-fitting T-shirt that’s comfy and stylish for casual wear.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/21_rjgec2",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425723/21_rjgec2.png"
+            }
+        ],
+        "category": "Oversized",
+        "seller": "Oxygen",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },  
+    {
+        "name": "Graphic Oversized Tee",
+        "price": 389.00,
+        "description":"Features bold prints, logos, or artwork, perfect for a trendy streetwear look.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/22_fmut8l",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425725/22_fmut8l.png"
+            }
+        ],
+        "category": "Oversized",
+        "seller": "Oxygen",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },  
+    {
+        "name": "Distressed Oversized Tee",
+        "price": 389.00,
+        "description":" Comes with ripped or faded details, giving it a cool, edgy vibe.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/23_iyhg6c",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425726/23_iyhg6c.png"
+            }
+        ],
+        "category": "Oversized",
+        "seller": "Oxygen",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },
+    {
+        "name": "Tie-Dye Oversized Tee",
+        "price": 389.00,
+        "description":"A colorful, retro-style T-shirt with unique tie-dye patterns.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/24_chp9ug",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425729/24_chp9ug.png"
+            }
+        ],
+        "category": "Oversized",
+        "seller": "Oxygen",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },
+    {
+        "name": "Longline Oversized Tee",
+        "price": 389.00,
+        "description":"Longer than a regular T-shirt, often worn as a tunic or mini dress.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/25_en4u2w",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425730/25_en4u2w.png"
+            }
+        ],
+        "category": "Oversized",
+        "seller": "Oxygen",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },
+    {
+        "name": "Band Graphic Tee",
+        "price": 389.00,
+        "description":"Features logos or artwork from famous bands, perfect for music lovers.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/26_tkgvyy",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425731/26_tkgvyy.png"
+            }
+        ],
+        "category": "Graphic",
+        "seller": "Surplus",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },
+    {
+        "name": "Vintage Graphic Tee",
+        "price": 389.00,
+        "description":"Has a faded, retro-style print with old-school logos or nostalgic designs.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/27_jzfxxo",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425733/27_jzfxxo.png"
+            }
+        ],
+        "category": "Graphic",
+        "seller": "Surplus",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },
+    {
+        "name": "Minimalist Graphic Tee",
+        "price": 389.00,
+        "description":"Features small, subtle graphics or text for a clean and modern look.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/28_hhglmd",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425734/28_hhglmd.png"
+            }
+        ],
+        "category": "Graphic",
+        "seller": "Surplus",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },
+    {
+        "name": "Pop Culture Graphic Tee",
+        "price": 389.00,
+        "description":"Showcases references from movies, TV shows, anime, or gaming.        ",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/29_pk7qlm",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425738/29_pk7qlm.png"
+            }
+        ],
+        "category": "Graphic",
+        "seller": "Surplus",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    },
+    {
+        "name": "Statement/Quote Graphic Tee",
+        "price": 389.00,
+        "description":"Includes bold text or inspirational quotes that make a statement.        ",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/30_rl1iyx",
+                "url": "https://res.cloudinary.com/dpxktub8r/image/upload/v1743425738/30_rl1iyx.png"
+            }
+        ],
+        "category": "Graphic",
+        "seller": "Surplus",
+        "stock": 2090,
+        "numOfReviews": 209,
+        "reviews": []
+    }
+]
