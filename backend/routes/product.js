@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const upload = require("../utils/multerProduct");
-const { isAuthenticatedUser } = require('../middleware/authMiddleware');
+// const { isAuthenticatedUser } = require('../middleware/authMiddleware');
 // const { multerProduct } = require ('../utils/multerProduct');
 // const { uploadCloud } = require ('../utils/uploadCloud');
 const { newProduct, getProducts, getAdminProducts,  getSingleProduct, deleteProduct, updateProduct, addReview, deleteMultipleProducts} = require('../controllers/product');

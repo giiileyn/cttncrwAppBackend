@@ -5,7 +5,7 @@ const dotenv = require('dotenv');
 
 // Load environment variables
 dotenv.config({ path: './config/.env' });
-
+// console.log('Loaded JWT_SECRET from .env:', process.env.JWT_SECRET);
 // Connect to the database
 connectDatabase();
 
