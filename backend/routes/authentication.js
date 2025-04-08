@@ -8,7 +8,7 @@ router.post('/register', upload.single("avatar"), registerUser);
 router.post('/login',loginUser);
 router.post('/password/forgot',forgotPass);
 router.put('/password/reset/:token',resetPassword)
-router.get('/profile', isAuthenticatedUser, getUserProfile);
-router.put('/profile/update', isAuthenticatedUser, upload.single('avatar'), updateUser);
+router.get('/profile', getUserProfile);
+router.put('/profile/update', upload.single('avatar'), updateUser);
 
 module.exports  =  router;

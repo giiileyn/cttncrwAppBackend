@@ -19,5 +19,5 @@ cloudinary.config({
 // Start the server
 const port = 3000;
 app.listen(port, '0.0.0.0', () => {
-    console.log(`Server running on http://192.168.254.118:${port}`);
+    console.log(`Server running on http://192.168.43.108:${port}`);
 });

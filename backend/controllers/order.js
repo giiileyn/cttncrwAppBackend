@@ -1,52 +1,77 @@
 const Order = require('../models/order');
 const Product = require('../models/product');
 
+// const Order = require('../models/order');
+// const Product = require('../models/product');
 
 exports.newOrder = async (req, res, next) => {
     try {
-      console.log("🔥 Incoming request body:", req.body);
-  
-      const { userId, orderItems, shippingInfo, itemsPrice, totalPrice } = req.body;
-  
-      // Check for missing fields
-      if (!userId || !orderItems || !shippingInfo || !itemsPrice || !totalPrice) {
-        return res.status(400).json({
-          success: false,
-          message: 'Please provide all required fields'
-        });
-      }
-  
-      // Validate product IDs in orderItems
-      for (const item of orderItems) {
-        const product = await Product.findById(item.product);
-        if (!product) {
-          return res.status(400).json({ success: false, message: `Product with ID ${item.product} not found` });
+        console.log("🔥 Incoming request body:", req.body);
+
+        // Destructure the incoming request body
+        const { userId, orderItems, shippingInfo, itemsPrice, totalPrice } = req.body;
+
+        // Check for missing fields
+        if (!userId || !orderItems || !shippingInfo || !itemsPrice || !totalPrice) {
+            return res.status(400).json({
+                success: false,
+                message: 'Please provide all required fields'
+            });
         }
-      }
-  
-      // Create the order
-      const order = await Order.create({
-        orderItems,
-        shippingInfo,
-        itemsPrice,
-        totalPrice,
-        user: userId,
-        paidAt: Date.now(),
-      });
-  
-      res.status(200).json({
-        success: true,
-        order
-      });
+
+        // Validate that all orderItems have the necessary fields (name, quantity, price)
+        for (const item of orderItems) {
+            if (!item.name || !item.quantity || !item.price) {
+                return res.status(400).json({
+                    success: false,
+                    message: 'Each order item must have a name, quantity, and price'
+                });
+            }
+        }
+
+        // Fetch product details and include product _id for each order item using the product name
+        const updatedOrderItems = [];
+        for (const item of orderItems) {
+            const product = await Product.findOne({ name: item.name });  // Find the product by its name
+            if (!product) {
+                return res.status(400).json({
+                    success: false,
+                    message: `Product with name ${item.name} not found`
+                });
+            }
+            updatedOrderItems.push({
+                product: product._id,  // Store the product _id in the order
+                name: product.name,    // Include the name
+                quantity: item.quantity,
+                price: item.price
+            });
+        }
+
+        // Create the order in the database with the updated order items
+        const order = await Order.create({
+            orderItems: updatedOrderItems,
+            shippingInfo,
+            itemsPrice,
+            totalPrice,
+            user: userId,
+            paidAt: Date.now(),
+        });
+
+        // Return the response to the frontend
+        res.status(200).json({
+            success: true,
+            order
+        });
     } catch (error) {
-      console.error("❌ Error in newOrder:", error);
-      res.status(500).json({
-        success: false,
-        message: "Error creating the order",
-        error: error.stack
-      });
+        console.error("❌ Error in newOrder:", error);
+        res.status(500).json({
+            success: false,
+            message: "Error creating the order",
+            error: error.stack
+        });
     }
 };
+
 
   
   

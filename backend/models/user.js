@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const validator = require('validator');
 const bcrypt = require('bcryptjs');
-const jwt = require('jsonwebtoken');
+// const jwt = require('jsonwebtoken');
 const crypto = require('crypto')
 const dotenv = require('dotenv');
 
@@ -56,11 +56,12 @@ userSchema.pre('save', async function (next) {
     this.password = await bcrypt.hash(this.password, 10)
 });
 
-userSchema.methods.getJwtToken = function () {
-    return jwt.sign({ id: this._id }, process.env.JWT_SECRET, {
-        expiresIn: '1h'
-    });
-}
+// userSchema.methods.getJwtToken = function () {
+//     console.log('JWT_SECRET used for sign:', process.env.JWT_SECRET); // 🧪 Debug print
+//     return jwt.sign({ id: this._id }, process.env.JWT_SECRET, {
+//         expiresIn: '1h'
+//     });
+// };
 
 userSchema.methods.comparePassword = async function (enteredPassword) {
     return await bcrypt.compare(enteredPassword, this.password)
