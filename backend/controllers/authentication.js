@@ -210,9 +210,36 @@ exports.forgotPass = async (req, res, next) => {
     }
 }
 
+// exports.getUserProfile = async (req, res) => {
+//     try {
+//       const user = await User.findById(req.user.id); 
+//       if (!user) {
+//         return res.status(404).json({ success: false, message: 'User not found' });
+//       }
+  
+//       res.status(200).json({
+//         success: true,
+//         user: {
+//           name: user.name,
+//           email: user.email,
+//           avatar: user.avatar, 
+//         },
+//       });
+//     } catch (error) {
+//       console.error('Error fetching user profile:', error);
+//       res.status(500).json({ success: false, message: 'Server Error' });
+//     }
+//   };
+  
 exports.getUserProfile = async (req, res) => {
     try {
-      const user = await User.findById(req.user.id); 
+      const userId = req.body.userId; // manually passed userId
+  
+      if (!userId) {
+        return res.status(400).json({ success: false, message: 'User ID is required' });
+      }
+  
+      const user = await User.findById(userId); 
       if (!user) {
         return res.status(404).json({ success: false, message: 'User not found' });
       }
@@ -222,7 +249,7 @@ exports.getUserProfile = async (req, res) => {
         user: {
           name: user.name,
           email: user.email,
-          avatar: user.avatar, 
+          avatar: user.avatar,
         },
       });
     } catch (error) {
@@ -230,8 +257,8 @@ exports.getUserProfile = async (req, res) => {
       res.status(500).json({ success: false, message: 'Server Error' });
     }
   };
-  
 
+  
 exports.updateUser = async (req, res, next) => {
     try {
         const userId = req.user.id; 
