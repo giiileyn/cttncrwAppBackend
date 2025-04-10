@@ -119,16 +119,37 @@ exports.newOrder = async (req, res, next) => {
 
 exports.UserOrders = async (req, res) => {
     try {
-        console.log("Authenticated user ID:", req.user.id); 
-        const orders = await Order.find({ user: req.user.id }) 
-            .populate('orderItems.product', 'name price') 
-            .exec(); // Execute the query
+        // Get the user ID from the request header (can be set by frontend)
+        const userId = req.headers['user-id'];  // Alternatively, pass it in body or query params
 
+        if (!userId) {
+            return res.status(400).json({ message: 'User ID is required' });
+        }
+
+        // Find all orders associated with the user
+        const orders = await Order.find({ user: userId })  // Assuming 'user' is the field linking to user
+            .populate('orderItems.product', 'name price')  // Populate order items with product details
+            .exec();  // Execute the query
+
+        // Return the orders to the frontend
         res.json({ orders });
     } catch (err) {
+        console.error("Error fetching orders:", err);
         res.status(500).json({ message: 'Server error' });
     }
 };
+// exports.UserOrders = async (req, res) => {
+//     try {
+//         console.log("Authenticated user ID:", req.user.id); 
+//         const orders = await Order.find({ user: req.user.id }) 
+//             .populate('orderItems.product', 'name price') 
+//             .exec(); // Execute the query
+
+//         res.json({ orders });
+//     } catch (err) {
+//         res.status(500).json({ message: 'Server error' });
+//     }
+// };
 
 
 
